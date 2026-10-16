@@ -71,11 +71,13 @@ Muuta:
 
 - Kun termikenttä on tyhjä, `-` aloittaa negatiivisen luvun.
 - `x`:n jälkeen kirjoitettu numero aloittaa uuden termin.
-- Kielletty siirto (esim. nollalla jakaminen tai x:llä kertominen tai jakaminen) näyttää
-  selityksen ja tyhjentää kentän. Vaaka ei muutu.
+- Kielletty tai turha siirto (esim. nollalla jakaminen, x:llä kertominen tai jakaminen,
+  nollan lisääminen tai ykkösellä kertominen) näyttää selityksen ja tyhjentää kentän. Vaaka ei
+  muutu, eikä siirtoa lasketa.
 - **Kumoa** (`Z`) peruu edellisen siirron. Se lasketaan siirroksi.
-- **Vihje** (`H`) tekee seuraavan järkevän siirron puolestasi. Kisoissa jokainen vihje lisää
-  aikaan **10 sekuntia**, harjoittelussa se on ilmainen.
+- **Vihje** (`H`) tekee seuraavan järkevän siirron puolestasi. Pikakisassa ja Sprintissä
+  jokainen vihje lisää aikaan **10 sekuntia**, ja Aikakisassa se vie 10 sekuntia jäljellä
+  olevasta ajasta. Harjoittelussa vihje on ilmainen.
 - `Backspace` poistaa merkin, ja `Esc` keskeyttää kisan. Kisan voi keskeyttää myös HUD:n
   *Lopeta*-napista.
 - Kosketusnäytöillä ruudun alareunassa on numerorivi `0–9`, `x` ja `←`.
@@ -84,9 +86,10 @@ Muuta:
 
 Harjoittelussa HUD:n **Kohde**-napista voi valita, kohdistuuko siirto *molemmille puolille*,
 *vain vasemmalle* vai *vain oikealle*. Toispuoleinen siirto kallistaa vaakaa, ja silloin
-näkee, miksi siirto on tehtävä molemmille puolille. **Kumoa** palauttaa tasapainon. Vihje ei toimi, kun
-vaaka on vinossa. Kumoa ensin toispuoleinen siirto. Kisoissa siirto tehdään aina molemmille
-puolille.
+näkee, miksi siirto on tehtävä molemmille puolille. Yhtälössä näkyy silloin `≠`.
+Tasapainon saa takaisin **Kumoa**-napilla tai tekemällä vastaavan siirron toiselle puolelle.
+Vihje ei toimi, kun vaaka on vinossa. Jokainen uusi yhtälö alkaa kohteella *molemmat puolet*.
+Kisoissa siirto tehdään aina molemmille puolille.
 
 ## Tulosnäyttö
 

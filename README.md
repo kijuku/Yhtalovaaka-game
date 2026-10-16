@@ -30,7 +30,7 @@ Tarkempi ohje: **[PELIOHJE.md](PELIOHJE.md)**
 1. Kirjoita **luku tai x-termi**, esim. `3`, `2x` tai `x`.
 2. Valitse toiminto: **+** lisää, **−** vähentää, **·** kertoo, **:** jakaa – molemmilta puolilta.
 3. Näppäimistöllä: numerot ja `x`, sitten `+ - * /`. **Z** kumoaa, **H** antaa vihjeen
-   (kisoissa vihje lisää aikaan 10 s).
+   (Pika- ja Sprinttikisassa vihje lisää aikaan 10 s, Aikakisassa se vie 10 s jäljellä olevasta ajasta).
 
 Tulosnäytöllä näet ajan, siirtojen määrän verrattuna parhaaseen mahdolliseen sekä
 **taitokartan**: mitkä yhtälötyypit sujuvat ja mitä kannattaa harjoitella. Peli antaa
