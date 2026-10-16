@@ -8,6 +8,8 @@ tietokoneella, tabletilla ja Chromebookilla ilman asennusta.
 Vaa'alla **sininen laatikko on x**, **oranssi punnus 1** ja **punainen ilmapallo −1**. Tee sama
 siirto molemmille puolille, kunnes vaa'alla on **x = luku**.
 
+Tarkempi ohje: **[PELIOHJE.md](PELIOHJE.md)**
+
 ## Pelitavat ja tasot
 
 | Pelitapa | Tavoite |
